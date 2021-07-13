@@ -1,0 +1,205 @@
+.header{
+    display: grid;
+    grid-template-columns: 20% 25% 50%;
+    align-items: center;
+    justify-items: right;
+    background:crimson;
+}
+.logo img{
+    width: 40%;
+}
+.icons li{
+    margin-right: 15px;
+}
+.icons img{
+    width: 10%;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: rgb(56, 26, 26);
+    font-size: 20px;
+    font-weight: 400;  
+}
+.navbar li{
+    margin-right: 30px;
+} 
+/* header done */
+/* banner */
+.banner{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-top: 70px;
+    justify-items: center; 
+    background-color: rgb(172, 209, 116);
+}
+.banner{
+  text-align: center;
+  align-self: center;
+  /* justify-content:space-evenly; */
+}
+.ubanner h1{
+    text-shadow: 0 8px 5px gray;
+    font-size: 50px;
+}
+.ubanner h4{
+    font-style: italic;
+    line-height: 10%;
+}
+/* banner done */
+/* content section  */
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-top: 30px; 
+}
+.card{
+    /* border: 3px solid salmon; */
+    /* background: salmon; */
+    text-align: center;
+    margin: 20px 50px 50px 20px;
+    width: 330px;
+    height: 40vh; 
+    padding: 20px 10px 30px;
+    box-shadow: 0 0 20px 0 black;
+    transition: transform 0.5s;
+    border-radius: 40px;
+}
+.card:hover{
+    border: 3px solid goldenrod;
+    box-shadow: 0 10px 10px 5px goldenrod;
+    transform: translateY(-30px); 
+}
+.card-img{
+    /* background: teal; */
+    /* width: 50%;
+    height: 100%;
+    position: relative; */
+    color: rgb(208, 58, 32);
+    font-weight: bolder;
+} /* width: 100%;
+    height: 
+/* .top-left{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.bot-left{
+    position: absolute;
+    bottom: 1px;
+    left: 20px;
+    color: green;
+    font-size: 20px;
+}
+.top-right{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.bot-right{
+    position: absolute;
+    bottom: 1px;
+    right: 10px;
+    color: red;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: yellow;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+/* }
+/* how to display text on image when image is on HTML  */
+.title-hover1{
+    color: coral;
+    margin-top: 8px;
+}
+.title-hover2{
+    color: rgb(155, 56, 20);
+    margin-top: 8px;
+}
+.title-hover3{
+    color: rgb(66, 245, 233);
+    margin-top: 8px;
+}
+.title-hover4{
+    color: rgba(118, 43, 15, 0.53);
+    margin-top: 8px;
+}
+.title-hover5{
+    color: rgb(236, 60, 125);
+    margin-top: 8px;
+} 
+.title-hover6{
+    color: rgb(224, 36, 80);
+    margin-top: 8px;
+}
+.title-hover7{
+    color:darkmagenta;
+    margin-top: 8px;
+}
+.title-hover8{
+    color: coral;
+    margin-top: 8px;
+}                           
+.title-display{
+    display: grid;
+}
+.title-hover:hover + .title-display{
+    display: block;
+    color: teal;
+    line-height: 0;
+}
+/* content section done */
+/* footer section  */
+.cfooter{
+    background: rgb(208, 7, 7);
+    padding-bottom: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 30% 40% 30% 30%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 30px 10px 10px;
+}
+.footer h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer h3{
+    color: coral;
+    font-size: 10px;
+    font-weight: bold;
+}
+.footer img{
+    width: 20%;
+}
+.footer li{
+    display: block;
+    margin-bottom: 5px;
+}
+.footer a{
+    color: #fff;
+    font-size: 20px;
+    display: inline;
+}
+.cfooter p{
+    color: #b5b5b5;
+    text-align: center;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+.mfooter #ptag{
+    margin-top: 0;
+    margin-bottom: 10px; 
+}
+.mfooter hr{
+    border: 0.2px solid rgb(22, 4, 4);
+    margin: 0 80px;
+}
+/* footer section done */ 

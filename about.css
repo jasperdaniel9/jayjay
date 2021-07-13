@@ -1,0 +1,57 @@
+.header{
+    display: grid;
+    grid-template-columns: 20% 25% 50%;
+    align-items: center;
+    justify-items: right;
+    background:crimson;
+}
+.logo img{
+    width: 40%;
+}
+.icons li{
+    margin-right: 15px;
+}
+.icons img{
+    width: 10%;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: rgb(56, 26, 26);
+    font-size: 20px;
+    font-weight: 400;  
+}
+.navbar li{
+    margin-right: 30px;
+} 
+/* header done */
+/* marquee section  */
+.marq{
+    color: rgb(230, 28, 129);
+    margin: 5px 0px;
+}
+/* marquee section done */
+/* banner */
+.banner{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-top: 70px;
+    justify-items: center; 
+    background-color: rgb(172, 209, 116);
+}
+.banner{
+  text-align: center;
+  align-self: center;
+  /* justify-content:space-evenly; */
+}
+.ubanner h1{
+    text-shadow: 0 8px 5px gray;
+    font-size: 50px;
+}
+.ubanner h4{
+    font-style: italic;
+    line-height: 10%;
+}
+/* banner done */
